@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'roboto';
+    src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'roboto-mono';
+    src: url("fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url("fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: 'sfmono';
+    src: url("fonts/SFMono-Regular.otf");
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    font-family:"roboto", sans-serif;
+    font-size: 0.8em;
+}
+    
+body {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background: linear-gradient(#e0bccf,#bccfe0,#cfe0bc );
+}
+    
+h1, 
+h2, 
+h3 {
+    font-family: 'montserrat', sans-serif;
+    padding: 6px 10px;
+}
+    
+h1 {
+    
+    font-size: 1.5em;
+}
+    
+h3 {
+    text-align: center;
+}
+    
+h2 {
+    text-align: left;
+    font-size: 1em;
+}
+    
+.shapka {
+    height:20%;
+    text-align: left;
+}
+    
+.html {
+    height:20%;
+    width: 155px;
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+    
+.css {
+    height:20%;
+    width: 110px;
+    height: 160px;
+    display: flex;
+}
+    
+.js {
+    height:20%;
+    width: 160px;
+    height: 160px;
+    display: flex;
+}
+    
+.github {
+    height:20%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+    
+.linux {
+    height:20%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+    
+.columns {
+    column-count: 3;
+    width: 1640px;
+    height: 1180px;
+    column-gap: 100px;    
+}
+      
+.block {
+    background: linear-gradient(#ffd500, #d8005f, #00a287);
+    display: block;
+    break-inside: avoid;
+    font-family: 'montserrat', sans-serif;
+    font-size: 1em;
+    width: 530px;
+    height: 580px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+    
+.block:hover {
+    box-shadow: 8px 10px 5px 2px rgba(0, 0, 225, .2);
+}
+    
+a {
+    color: #0075B2;
+    text-decoration: none;
+}
+    
+a:hover {
+    color: #CE242B;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.date {
+    text-align: right;
+    font-size: 0.7em;
+}
+
+.images-hexlet {
+    height: 15px;
+    width: 15px;
+
+}
+
+.link {
+    margin-top: 30px;
+}
