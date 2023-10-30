@@ -14,10 +14,11 @@
  14. Создать пять пустышек ( function() {})
  15. Написать (export {название всех функций }
  16. Make test 
- 17. Сделать задачу 
- 18. Make lint 
- 19. Make lint-fix 
- 20. Make test 
- 21. Git add -A
- 22. Git commit -m “task 1”
- 23. Git push
+ 17. Сделать задачу
+ 18. написать console.log провериить и добавить к нему //
+ 19. Make lint 
+ 20. Make lint-fix 
+ 21. Make test 
+ 22. Git add -A
+ 23. Git commit -m “task 1”
+ 24. Git push
